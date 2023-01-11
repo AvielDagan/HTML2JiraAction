@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  html-input:  # id of input
+    description: 'HTML content to convert'
+    required: true
+outputs:
+  jira-content-output: # id of output
+    description: 'Jira content output'
+runs:
+  using: 'node16'
+  main: 'index.js'
